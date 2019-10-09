@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+header { 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ #section{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url('../img/dashboard.jpg')center center no-repeat;
+    background-size: 100%;
+	background-position: center center;
+	background-attachment: fixed;
+	background-position-y: inherit;
+	height: 100%;
+}
+p.knowMore {
+    position: absolute;
+    bottom: 8%;
+    right: 32%;
+    color: white;
+    font-size: x-large;
+
+}
+.knowMore a {
+    color: white;
+    text-transform: uppercase;
+}
+body{
+height: 100vh;
+} 
+
+#indexHeader {
+	height: 75px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#navContainer {
+	padding-top: 7px;
+    float: right;
+    margin-right: 5%;
+}
+
+#logo {
+	float: left;
+    font-family: sans-serif;
+    margin-top: 18px;
+    margin-left: 40px;
+    font-size: 26px;
+    color: white;
+    background: black;
+    mix-blend-mode: multiply;
+    padding: 10px 30px;
+}
+
+#indexLogo {
+	float: left;
+    font-family: sans-serif;
+    margin-top: 18px;
+    margin-left: 40px;
+    font-size: 24px;
+    color: white;
+    background: black;
+    mix-blend-mode: multiply;
+    padding: 5px;
+}
+
+#logo:hover {
+	cursor: pointer;
+}
+
+#navigation {
+	display: inline-flex;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 24px;
+}
+
+.links {
+	font-size: 17px;
+	font-family: arial,sans-serif;
+	margin: 5px 10px;
+	color: black;
+	cursor: pointer;
+}
+
+.links:hover {
+	border-bottom: 2px solid #fdd835;
+	color: #fbc02d;
+}
+
+
+#quote {
+	height: 150px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#quoteContent{
+	padding-top: 4%;
+	padding-left: 4%;
+}
+
+#aboutImg {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 0px 10px;
+}
+
+.topicContainers {
+	margin: 10px;
+}
+
+.topics {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 5px;
+	background-color: aquamarine;
+	margin-bottom: 15px;
+}
+
+
+div#imageContainer {
+    text-align: center;
+}
+
+div#about {
+    margin: 0 auto;
+    max-width: 50vw;
+    text-align: justify;
+	padding-top: 3%
+}
+div#content {
+    border-bottom: 1px solid gainsboro;
+    padding: 24px 0;
+	font-size: 18px;
+}
+div#contentHobbies {
+	font-size: 18px;
+	
+}
+h1{text-align: center;}
+#contentHobbies ul li{
+	padding: 0%;
+	margin: 6%;
+	float: left;
+	list-style:square;
+}
+.experiances {
+    margin-top: 20px;
+	text-align: justify;
+}
+
+.experiances-title {
+    font-size: 25px;
+    /* border-bottom: 1px solid gainsboro; */
+    margin: 15px 0;
+}
+
+.company-name {
+    float: left;
+    font-size: larger;
+	font-size: 20px;
+}
+
+#contactLabel {
+	margin: 2% 32%;
+}
+
+.tenure {
+    float: right;
+    font-size: small;
+	font-size: 18px;
+}
+.company-experiances {
+    margin-bottom: 41px;
+}
+
+
+.project-name {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.project-sec {
+    clear: both;
+    padding: 25px;
+	font-size: 18px;
+}
+.project-desc ul {
+    margin: 20px;
+}
+
+.project-desc ul li {
+    font-size: 18px;
+}
+
+.formContainer {
+	margin: 8% 20%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	height: 350px;
+}
+
+.labelContainer {
+	margin: 5px;
+}
+
+.labelContainer input,textarea {
+	width: 98%;
+    height: 30px;
+}
+
+textarea {
+	height: 60px;
+}
+
+.labelContainer span {
+	font-size: 18px;
+}
+
+#submitButton {
+	width: 90px;
+    height: 35px;
+    background: aquamarine;
+    border: 0;
+    float: right;
+    margin-right: 2%;
+}
+
+#resumeContainer {
+	background-image: url('../img/resume.jpg');
+	background-repeat: no-repeat;
+    background-size: 100%;
+    height: 240vh;
+	margin: 5%;
+	border: 1px dotted black;
+}
+
+.triangle-down {
+	position:absolute;
+	left: 50%;
+	width: 0;
+	height: 0;
+	animation-iteration-count:3;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid coral;
+	animation-name: triangle-down;
+	animation-duration: 1s;
+
+}
+
+@keyframes triangle-down{
+	from{top:22%;}
+	to{ bottom:68%;}
+}
+
+@media only screen and (max-width: 840px) {
+  #indexLogo {
+	font-size: 18px;
+	
+}
+#logo {
+	font-size: 18px;
+	
+}
+}
+
+@media only screen and (max-width: 800px) {
+  #indexLogo {
+	display:none;
+	
+}
+#logo {
+	display: none;
+	
+}
+}
+
+@media only screen and (max-width: 520px) {
+ .links {
+	font-size: 12px;
+	font-family: arial,sans-serif;
+	margin: 5px 10px;
+	color: black;
+	cursor: pointer;
+	
+}
+}
+
+@media only screen and (max-width: 400px) {
+	.links {
+	   font-size: 10px;
+	   font-family: arial,sans-serif;
+	   margin: -3px 10px;
+	   color: black;
+	   cursor: pointer;
+	   
+   }
+   #navigation {
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+   }
